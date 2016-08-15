@@ -1,0 +1,28 @@
+{
+  "name": "react-testing",
+  "version": "1.0.0",
+  "description": "How to test react applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelkyrdan/react-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelkyrdan/react-testing/issues"
+  },
+  "homepage": "https://github.com/rafaelkyrdan/react-testing#readme",
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.0.2",
+    "react-addons-test-utils": "^15.3.0"
+  }
+}
