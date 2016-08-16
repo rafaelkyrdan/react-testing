@@ -10,7 +10,7 @@ const Icon = ({name}) => (
 
 describe('Icon', () => {
 
-  it('it should render the icon', () => {
+  it('it should render the icon with given className', () => {
     const renderer = TestUtils.createRenderer();
     renderer.render(<Icon name='fa fa-facebook' />);
     const actual = renderer.getRenderOutput().props.className.includes('fa-facebook');
