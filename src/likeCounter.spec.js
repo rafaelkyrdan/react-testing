@@ -4,7 +4,7 @@ import expect from 'expect';
 import expectJSX from 'expect-jsx';
 expect.extend(expectJSX);
 
-const LikeCounter = ({greeting}) => (
+const LikeCounter = () => (
   <a>click on me</a>
 );
 
